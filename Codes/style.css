@@ -859,3 +859,24 @@ footer {
     text-align: center;
     font-size: 14px;
 } 
+
+
+/* For large smartphones (max-width: 600px) */
+@media (max-width: 600px) {
+
+  .booking-card .col {
+      padding: 15px;
+  }
+
+  .leon .service-header h1 {
+      font-size: 1.5em;
+  }
+
+  #contact .row {
+      flex-direction: column;
+  }
+
+  .icons i {
+      font-size: 1.5em;
+  }
+}
