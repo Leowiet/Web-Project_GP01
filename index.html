@@ -17,6 +17,10 @@
         <nav class="navbar">
             <a href="#home" class="logo"><img src="./assets/images/logoimagenobg.png" id="logonobg">FitJourney</a>
 
+            <div class="hamburger" onclick="toggleMenu()">
+              &#9776; 
+            </div>
+
             <ul class="tags">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#may">About</a></li>
@@ -371,11 +375,12 @@
     </footer>
 </section>
 </body>
+<script>
+    // Function to toggle the navigation menu
+    function toggleMenu() {
+    const menu = document.querySelector('.tags');
+    menu.classList.toggle('show');
+}
 
-
- 
-   
-
- 
-
+</script>
 </html>
