@@ -17,6 +17,10 @@
         <nav class="navbar">
             <a href="#home" class="logo"><img src="./assets/images/logoimagenobg.png" id="logonobg">FitJourney</a>
 
+            <div class="hamburger" onclick="toggleMenu()">
+              &#9776; 
+            </div>
+
             <ul class="tags">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#may">About</a></li>
@@ -34,9 +38,9 @@
             <div class="image-data">
               <span class="text">Health Club</span>
               <h2>
-                Stay active with <br>our fitness programs and enjoy <br> a healthier life style
+                Stay active with <br>sour fitness programs and enjoy <br> a healthier life style
               </h2>
-              <a href="#may" class="slide-btn">About Us</a>
+              <a href="#" class="slide-btn">About Us</a>
             </div>
           </div>
           <div class="slide swiper-slide">
@@ -46,7 +50,7 @@
               <h2>
                 Let our professional <br> massage therapists help you unwind <br> and recharge at <span style="color: #E7826F;" class="massage-content">Fit Journey</span>
               </h2>
-              <a href="#may" class="slide-btn">About Us</a>
+              <a href="#" class="slide-btn">About Us</a>
             </div>
           </div>
           <div class="slide swiper-slide">
@@ -56,7 +60,7 @@
               <h2>
                 Delicious meals for every <br>dietary preference
               </h2>
-              <a href="#may" class="slide-btn">About Us</a>
+              <a href="#" class="slide-btn">About Us</a>
             </div>
           </div>
         </div>
@@ -371,11 +375,12 @@
     </footer>
 </section>
 </body>
+<script>
+    // Function to toggle the navigation menu
+    function toggleMenu() {
+    const menu = document.querySelector('.tags');
+    menu.classList.toggle('show');
+}
 
-
- 
-   
-
- 
-
+</script>
 </html>
